@@ -7,9 +7,17 @@ const ManagementSkillsAid = () => {
   const [selectedArea, setSelectedArea] = useState(null);
 
   useEffect(() => {
-    fetch('/management-skills.json')
+    fetch(`${process.env.PUBLIC_URL}/management-skills.json`)
       .then(response => response.json())
-      .then(data => setAreas(data.areas));
+      .then(data => setAreas(data.areas))
+      .catch(error => {
+        console.error('There was an error fetching the JSON data:', error);
+        console.error ('URL is:', `${process.env.PUBLIC_URL}/management-skills.json`);
+        console.error ('process.env.PUBLIC_URL is:', process.env.PUBLIC_URL);
+        console.error ('process.env.NODE_ENV is:', process.env.NODE_ENV);
+        console.error ('process.env.REACT_APP_API_URL is:', process.env.REACT_APP_API_URL);
+        console.error ('process.env.REACT_APP_API_KEY is:', process.env.REACT_APP_API_KEY);
+      });
   }, []);
 
   const handleAreaClick = (area) => {
