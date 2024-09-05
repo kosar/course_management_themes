@@ -1,0 +1,136 @@
+{
+  "areas": [
+    {
+      "id": 1,
+      "title": "Effective Communication",
+      "description": "Master the art of clear and impactful communication across all levels of an organization.",
+      "skills": [
+        "Articulating ideas clearly in different settings",
+        "Active listening and understanding diverse perspectives",
+        "Adapting communication style for different audiences"
+      ],
+      "scenario": "You're presenting a new project proposal to a mixed audience of executives, peers, and team members. How do you tailor your message to engage and convince all stakeholders?"
+    },
+    {
+      "id": 2,
+      "title": "Relationship Building and Networking",
+      "description": "Develop strong professional connections that foster collaboration and career growth.",
+      "skills": [
+        "Developing and maintaining professional connections at all levels",
+        "Finding and leveraging mentors",
+        "Building trust and rapport with team members, peers, and leaders"
+      ],
+      "scenario": "You're new to a company and want to establish yourself. How do you build meaningful relationships across departments without appearing overly ambitious?"
+    },
+    {
+      "id": 3,
+      "title": "Conflict Resolution and Negotiation",
+      "description": "Learn to address disagreements constructively and negotiate win-win outcomes.",
+      "skills": [
+        "Addressing disagreements constructively",
+        "Mediating conflicts between team members or peers",
+        "Negotiating resources, priorities, and expectations"
+      ],
+      "scenario": "Two of your top performers are constantly at odds, affecting team morale. How do you address this conflict and foster a more collaborative environment?"
+    },
+    {
+      "id": 4,
+      "title": "Organizational Dynamics and Culture",
+      "description": "Navigate and influence company culture to drive positive change.",
+      "skills": [
+        "Understanding and navigating company culture",
+        "Influencing organizational change and decision-making",
+        "Adapting to restructuring and organizational shifts"
+      ],
+      "scenario": "Your company is going through a major restructuring. How do you maintain team morale and productivity while adapting to the changes?"
+    },
+    {
+      "id": 5,
+      "title": "Strategic Thinking and Vision",
+      "description": "Develop a forward-thinking mindset to drive long-term success.",
+      "skills": [
+        "Aligning personal and team goals with organizational objectives",
+        "Identifying and capitalizing on growth opportunities",
+        "Anticipating industry trends and market changes"
+      ],
+      "scenario": "You've identified a potential new market for your product, but it requires significant resource allocation. How do you build a compelling case for this strategic shift?"
+    },
+    {
+      "id": 6,
+      "title": "Performance Management and Motivation",
+      "description": "Learn to set clear expectations, provide effective feedback, and inspire high performance.",
+      "skills": [
+        "Setting clear goals and expectations",
+        "Providing effective feedback and coaching",
+        "Recognizing and rewarding good performance"
+      ],
+      "scenario": "One of your team members is consistently underperforming. How do you address this issue while maintaining motivation and morale?"
+    },
+    {
+      "id": 7,
+      "title": "Time Management and Productivity",
+      "description": "Master techniques to balance multiple priorities and maximize efficiency.",
+      "skills": [
+        "Balancing multiple priorities and responsibilities",
+        "Delegating tasks effectively",
+        "Managing workload and preventing burnout"
+      ],
+      "scenario": "You're juggling multiple high-priority projects with conflicting deadlines. How do you manage your time and resources to ensure all projects are completed successfully?"
+    },
+    {
+      "id": 8,
+      "title": "Leadership and Influence",
+      "description": "Develop your unique leadership style and learn to influence without authority.",
+      "skills": [
+        "Developing a personal leadership style",
+        "Influencing without direct authority",
+        "Inspiring and motivating others"
+      ],
+      "scenario": "You need to lead a cross-functional team on a critical project, but you don't have direct authority over all team members. How do you ensure everyone is aligned and motivated?"
+    },
+    {
+      "id": 9,
+      "title": "Innovation and Problem-Solving",
+      "description": "Foster creativity and develop systematic approaches to addressing complex challenges.",
+      "skills": [
+        "Fostering creativity and new ideas",
+        "Addressing complex challenges systematically",
+        "Promoting and implementing innovative solutions"
+      ],
+      "scenario": "Your team is stuck on a seemingly unsolvable technical problem. How do you foster an environment of innovation to break through this roadblock?"
+    },
+    {
+      "id": 10,
+      "title": "Emotional Intelligence and Self-Awareness",
+      "description": "Enhance your ability to understand and manage emotions in yourself and others.",
+      "skills": [
+        "Understanding and managing one's own emotions",
+        "Recognizing and responding to others' emotions",
+        "Developing resilience and adaptability"
+      ],
+      "scenario": "You receive harsh criticism from a senior leader in a public setting. How do you manage your emotional response and turn this into a constructive situation?"
+    },
+    {
+      "id": 11,
+      "title": "Stakeholder Management",
+      "description": "Learn to identify, engage, and align diverse stakeholders to achieve common goals.",
+      "skills": [
+        "Identifying and engaging key stakeholders",
+        "Aligning diverse interests and expectations",
+        "Building and maintaining strategic partnerships"
+      ],
+      "scenario": "Your project requires buy-in from multiple departments with conflicting priorities. How do you manage these stakeholders to ensure project success?"
+    },
+    {
+      "id": 12,
+      "title": "Continuous Learning and Skill Development",
+      "description": "Cultivate a growth mindset and develop strategies for ongoing professional development.",
+      "skills": [
+        "Identifying areas for personal and professional growth",
+        "Staying current with industry trends and best practices",
+        "Developing a growth mindset and learning agility"
+      ],
+      "scenario": "You realize your technical skills are becoming outdated in a rapidly evolving industry. How do you approach continuous learning while maintaining your current responsibilities?"
+    }
+  ]
+}
