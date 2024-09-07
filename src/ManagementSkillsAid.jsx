@@ -12,16 +12,17 @@ const ManagementSkillsAid = () => {
       .then(data => setAreas(data.areas))
       .catch(error => {
         console.error('There was an error fetching the JSON data:', error);
-        console.error ('URL is:', `${process.env.PUBLIC_URL}/management-skills.json`);
-        console.error ('process.env.PUBLIC_URL is:', process.env.PUBLIC_URL);
-        console.error ('process.env.NODE_ENV is:', process.env.NODE_ENV);
-        console.error ('process.env.REACT_APP_API_URL is:', process.env.REACT_APP_API_URL);
-        console.error ('process.env.REACT_APP_API_KEY is:', process.env.REACT_APP_API_KEY);
       });
   }, []);
 
   const handleAreaClick = (area) => {
     setSelectedArea(selectedArea === area ? null : area);
+  };
+
+  const handleOutsideClick = (e) => {
+    if (e.target.classList.contains('overlay')) {
+      setSelectedArea(null);
+    }
   };
 
   return (
@@ -44,20 +45,28 @@ const ManagementSkillsAid = () => {
       <AnimatePresence>
         {selectedArea && (
           <motion.div
-            className="skill-details"
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 50 }}
+            className="overlay"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={handleOutsideClick}
           >
-            <h2>{selectedArea.title}</h2>
-            <h4>Key Skills:</h4>
-            <ul>
-              {selectedArea.skills.map((skill, index) => (
-                <li key={index}>{skill}</li>
-              ))}
-            </ul>
-            <h4>Scenario:</h4>
-            <p>{selectedArea.scenario}</p>
+            <motion.div
+              className="skill-details"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.8 }}
+            >
+              <h2>{selectedArea.title}</h2>
+              <h4>Key Skills:</h4>
+              <ul>
+                {selectedArea.skills.map((skill, index) => (
+                  <li key={index}>{skill}</li>
+                ))}
+              </ul>
+              <h4>Scenario:</h4>
+              <p>{selectedArea.scenario}</p>
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
