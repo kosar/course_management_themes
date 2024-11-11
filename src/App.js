@@ -7,7 +7,6 @@ import ManagementSkillsAid from './ManagementSkillsAid';
 function App() {
   return (
     <div className="App">
-      <h1>Management Skills Development</h1>
       <ManagementSkillsAid />
     </div>
   );
